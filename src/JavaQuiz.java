@@ -85,11 +85,45 @@ public class JavaQuiz {
             System.out.println("Incorrecto.");
         }
 
+        // Pregunta 5
+        System.out.println();
+        System.out.println("Pregunta 5. ¿Qué bucle se ejecuta siempre al menos una vez?");
+        System.out.println("A) for");
+        System.out.println("B) do-while");
+        System.out.println("C) while");
+        System.out.print("Respuesta: ");
+        String respuesta5 = teclado.nextLine();
+        if (respuesta5.equalsIgnoreCase("B")) {
+            System.out.println("¡Correcto!");
+            aciertos++;
+        } else {
+            System.out.println("Incorrecto.");
+        }
+
+        // Pregunta 6
+        System.out.println();
+        System.out.println("Pregunta 6. ¿Qué método compara dos String sin distinguir mayúsculas?");
+        System.out.println("A) equals");
+        System.out.println("B) compareTo");
+        System.out.println("C) equalsIgnoreCase");
+        System.out.print("Respuesta: ");
+        String respuesta6 = teclado.nextLine();
+        if (respuesta6.equalsIgnoreCase("C")) {
+            System.out.println("¡Correcto!");
+            aciertos++;
+        } else {
+            System.out.println("Incorrecto.");
+        }
+
 
         // FIN RONDA 2 - INTEGRANTE B
 
 
         // RESULTADO FINAL - INTEGRANTE B
+        System.out.println();
+        System.out.println("========== RESULTADO ==========");
+        System.out.println("Respuestas correctas: " + aciertos + " de 6");
+        System.out.println("Fin del concurso.");
 
 
         // Cerrar Scanner
